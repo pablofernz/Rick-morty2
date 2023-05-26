@@ -1,0 +1,23 @@
+.Cartas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+    
+    justify-content: center;
+}
+.Aviso{ 
+    background-color: transparent;
+    color: greenyellow;
+    font-size: 23px;
+    font-family: "PIXELFY";
+    font-style: normal;
+    width: 400px;
+    text-shadow: 0px 0px 45px greenyellow;
+    animation: anim 1.5s ease-in-out infinite alternate;
+ }
+
+ @keyframes anim {
+    from { position: absolute;top: 510px; left: 450px;}
+    to { position: absolute;top: 520px; left: 450px;}
+  }
